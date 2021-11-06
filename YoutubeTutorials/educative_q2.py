@@ -2,8 +2,8 @@
 # vist every element in array, subtract value and see if corresponding value is available
 # if list is exhausted, return no such pair exists
 def find_sum_of_two(given_array, val):
-    found_values = set()
-    for i in given_array:
+    found_values = set() # convert to distinct elements
+    for i in given_array: # iterate through list
         if val - i in found_values:
             return True
 
