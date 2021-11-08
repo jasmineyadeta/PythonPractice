@@ -2,6 +2,7 @@
 # 3. Merge two sorted linked lists
 # Assumption: do not have to be of equal length
 # goal: merge two sorted linked lists so the resulting merged list is ordered
+# complexity after written: O(n+m) where n and m are the lengths of the initial lists
 
 class Node:
     def __init__(self, data):
